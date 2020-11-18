@@ -1,0 +1,39 @@
+<svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15.0742 12.3937C16.476 10.8958 16.9075 8.6633 16.1729 6.6969" stroke="url(#pulses_logo0_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M5.8035 3.12231C2.9737 6.16912 2.9737 11.1324 5.8035 14.1809" stroke="url(#pulses_logo1_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M17.1968 14.1809C20.0266 11.129 20.0266 6.1678 17.1968 3.12231" stroke="url(#pulses_logo2_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M3.90427 1C2.03153 3.03385 1 5.73108 1 8.59658C1 11.4621 2.03153 14.1642 3.90427 16.1915" stroke="url(#pulses_logo3_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M19.0957 16.1915C20.9684 14.1623 22 11.4664 22 8.59577C22 5.72511 20.9684 3.02759 19.0957 1" stroke="url(#pulses_logo4_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M8.03747 4.79797C6.52593 6.32696 6.0623 8.60581 6.85685 10.6065" stroke="url(#pulses_logo5_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <path d="M11.4996 10.2714C12.4867 10.2714 13.2869 9.47048 13.2869 8.48414C13.2869 7.4962 12.4867 6.6969 11.4996 6.6969C10.5126 6.6969 9.7124 7.4978 9.7124 8.48414C9.7124 9.47048 10.5126 10.2714 11.4996 10.2714Z" stroke="url(#pulses_logo6_linear)" stroke-miterlimit="10" stroke-linecap="round" fill="none"/>
+  <defs>
+    <linearGradient id="pulses_logo0_linear" x1="15.8003" y1="6.6969" x2="17.8361" y2="11.6811" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo1_linear" x1="4.74233" y1="3.12231" x2="6.97444" y2="12.9482" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo2_linear" x1="18.258" y1="3.12231" x2="21.9999" y2="14.0345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo3_linear" x1="2.45213" y1="1" x2="5.88795" y2="15.4828" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo4_linear" x1="20.5478" y1="1" x2="25.8018" y2="13.3104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo5_linear" x1="7.25555" y1="4.79797" x2="9.5088" y2="10.776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+    <linearGradient id="pulses_logo6_linear" x1="11.4996" y1="6.6969" x2="12.767" y2="9.87076" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B157"/>
+      <stop offset="1" stop-color="#98E35D"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -56,6 +56,12 @@ button:active, button:focus
 button::-moz-focus-inner 
   border: 0
 
+.darken
+  background: #102331
+
+.lighten
+  background: #172d3e
+
 
 .header
   background: #000 
@@ -99,9 +105,8 @@ button::-moz-focus-inner
   
 
 .first_screen
-  background: #102331
+  position: relative
   .title_box
-    padding-bottom: 25px
     padding-right: 45px
   .top_img_holder
     display: flex
@@ -110,21 +115,26 @@ button::-moz-focus-inner
     img 
       width: 480px
       height: auto
-  
-  .nav_link_list
-    padding-bottom: 25px
-    li  
-      margin-right: 10px
-      transition: all .6s
-      padding: 7px
-      border-radius: 3px 
-      a 
-        color: #ffffff
-        font-size: 15px
-        margin: 0 auto
-      &:hover
-        a
-          color: $link_color
+  .nav_link_wrap
+    position: absolute
+    width: 100%
+    bottom: 0
+    left: 0
+    right: 0
+    .nav_link_list
+      padding-bottom: 25px
+      li  
+        margin-right: 10px
+        transition: all .6s
+        padding: 7px
+        border-radius: 3px 
+        a 
+          color: #ffffff
+          font-size: 15px
+          margin: 0 auto
+        &:hover
+          a
+            color: $link_color
 
 
 .content_text
@@ -135,17 +145,16 @@ button::-moz-focus-inner
     
         
 .advances
-  background: #102331
   &_content
-    margin: 48px 0
+    padding-right: 30px 
     color: #fff
     .title_box
       h3 
         padding-bottom: 8px
   &_item
-    padding: 25px 5px
+    padding: 55px 8px
     .img_holder
-      width: 550px
+      // width: 550px
       max-height: 100%
       display: flex
       justify-content: center
@@ -162,7 +171,6 @@ button::-moz-focus-inner
             
 
 .plan 
-  background: #172D3E
   .title_box
     padding-bottom: 25px
   .content_text, .call_us
@@ -176,9 +184,8 @@ button::-moz-focus-inner
     width: 49%
     background: #1D3E57
     transition: all .6s
-    padding: 25px 10px
+    padding: 28px
     text-align: center
-    margin: 2px
     border-radius: 3px
     // overflow: hidden
     &:hover
@@ -196,7 +203,7 @@ button::-moz-focus-inner
           font-size: 15px
           padding: 4px 15px
           border-radius: 30px
-          background: #8407f8
+          background: #88E1DD
     .card_list
       li 
         font-size: 15px
@@ -206,19 +213,21 @@ button::-moz-focus-inner
           content: '✔'
           font-size: 13px
           margin-right: 4px
-          color: #8407f8
+          color: #88E1DD
     .button_box
       padding: 20px
       .btn
         text-transform: uppercase
         padding: 7px 19px
         font-weight: bold
-        background: #8407f8
-        border-radius: 30px
+        background: #88E1DD
+        border-radius: 4px
+        transition: all .6s
+        &:hover
+          background: darken(#88E1DD, 15%)
 
 
 .listing
-  background: #102331
   .form_list
     background: #172D3E
 
@@ -228,7 +237,6 @@ button::-moz-focus-inner
 
 
 .our_app
-  background: #0A1116
   .title_box, .content_text
     padding-right: 250px
   .link_wrap
@@ -308,18 +316,14 @@ button::-moz-focus-inner
       width: 100%
       text-align: center
       background: #88E1DD
-      color: #8407F8
+      // color: #8407F8
       text-transform: uppercase
       font-size: 15px
       font-weight: 600
       border-radius: 4px
       transition: all .6s
-      &::before
-        content: '/#'
-        font-family: sans-serif
-        font-size: 15px
-        font-weight: normal
-        margin-right: 15px
+      i 
+        margin-right: 7px
       &:hover
         background: darken(#88E1DD, 15%)
   .list_wrap
@@ -334,10 +338,10 @@ button::-moz-focus-inner
           color: #ffffff
           font-size: 15px
           transition: all .6s
-          img
-            width: 30px
-            height: 30px
-            margin-right: 10px
+          i
+            font-size: 16px
+            padding-right: 7px 
+            padding-bottom: 7px
         &:hover
           a 
             color: $link_color

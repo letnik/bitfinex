@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+ 
+.icon-left-big:before { content: '\2190'; } /* '←' */
+.icon-up-big:before { content: '\2191'; } /* '↑' */
+.icon-right-big:before { content: '\2192'; } /* '→' */
+.icon-down-big:before { content: '\2193'; } /* '↓' */
+.icon-heart-empty:before { content: '\2661'; } /* '♡' */
+.icon-heart:before { content: '\2665'; } /* '♥' */
+.icon-flash-1:before { content: '\26a1'; } /* '⚡' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-ok:before { content: '\2713'; } /* '✓' */
+.icon-quote:before { content: '\275e'; } /* '❞' */
+.icon-ccw:before { content: '\27f2'; } /* '⟲' */
+.icon-cw:before { content: '\27f3'; } /* '⟳' */
+.icon-eject:before { content: '\2ecf'; } /* '⻏' */
+.icon-tags:before { content: '\e70d'; } /* '' */
+.icon-trash-empty:before { content: '\e729'; } /* '' */
+.icon-zoom-in:before { content: '\e750'; } /* '' */
+.icon-zoom-out:before { content: '\e751'; } /* '' */
+.icon-down-open:before { content: '\e75c'; } /* '' */
+.icon-left-open:before { content: '\e75d'; } /* '' */
+.icon-right-open:before { content: '\e75e'; } /* '' */
+.icon-up-open:before { content: '\e75f'; } /* '' */
+.icon-arrows-cw:before { content: '\e760'; } /* '' */
+.icon-flash:before { content: '\e81b'; } /* '' */
+.icon-link:before { content: '\e81c'; } /* '' */
+.icon-docs:before { content: '\f0c5'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-exchange:before { content: '\f0ec'; } /* '' */
+.icon-download-cloud:before { content: '\f0ed'; } /* '' */
+.icon-upload-cloud:before { content: '\f0ee'; } /* '' */
+.icon-direction:before { content: '\f124'; } /* '' */
+.icon-rocket:before { content: '\f135'; } /* '' */
+.icon-moon:before { content: '\f186'; } /* '' */
+.icon-bug:before { content: '\f188'; } /* '' */
+.icon-cc-visa:before { content: '\f1f0'; } /* '' */
+.icon-cc-mastercard:before { content: '\f1f1'; } /* '' */
+.icon-cc-discover:before { content: '\f1f2'; } /* '' */
+.icon-cc-amex:before { content: '\f1f3'; } /* '' */
+.icon-cc-paypal:before { content: '\f1f4'; } /* '' */
+.icon-cc-stripe:before { content: '\f1f5'; } /* '' */
+.icon-trash:before { content: '\f1f8'; } /* '' */
+.icon-folder:before { content: '📁'; } /* '\1f4c1' */
+.icon-folder-open:before { content: '📂'; } /* '\1f4c2' */
+.icon-shuffle:before { content: '🔀'; } /* '\1f500' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */
+.icon-link-1:before { content: '🔗'; } /* '\1f517' */
