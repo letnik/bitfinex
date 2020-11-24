@@ -134,6 +134,47 @@ button::-moz-focus-inner
     transition: all .6s
     &:hover
       background: darken(#88E1DD, 15%)
+  .link
+    color: #16B157
+    padding: 7px 0
+    font-family: 'Open Sans',  sans-serif
+    font-size: 15px
+    font-weight: 300
+    transition: all .6s
+    &:hover
+      color: lighten(#16B157, 15%)
+
+
+
+.form_list
+  form 
+    label
+      font-family: 'Open Sans',  sans-serif
+      color: #82BAF6
+      font-size: 1rem
+      padding: 5px 0
+      border: none
+    input, select
+      background: #102331
+      border: none
+      box-shadow: none
+      height: 40px
+      color: #fff
+      border-radius: 6px
+      &:active
+        background: #102331
+      &:focus
+        border: 1px solid #52a0f3
+        outline: none
+        padding: 6px
+        background: #102331
+    select 
+      padding: 10px 2px
+      option
+        padding: 10px 2px
+
+
+
 
 .img_holder
   display: flex
@@ -193,10 +234,11 @@ button::-moz-focus-inner
   .title_box
     padding-bottom: 25px
   .content_text, .call_us
-    margin-top: 25px
+    // margin-top: 25px
     p 
       a 
         transition: all .6s
+        margin-left: 6px
         &:hover
           color: lighten($link_color, 10%)
 
@@ -241,10 +283,16 @@ button::-moz-focus-inner
   .form_list
     background: #172D3E
 
+  
+
 
     // застилызувати форму
-
-
+  .btn
+    width: 100%
+    text-align: center
+    padding: 15px 0
+    border: none
+    color: #14a340
 
 .our_app
   .link_wrap
